@@ -27,6 +27,7 @@ MVP/Mobile/.expo-shared/
 MVP/Mobile/.parcel-cache/
 MVP/Mobile/dist/
 MVP/Mobile/coverage/
+MVP/Mobile/expo-env.d.ts
 
 # Watchman (usado no RN)
 .watchmanconfig
