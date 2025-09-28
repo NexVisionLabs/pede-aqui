@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NexVisionLabs.github.io/pede-aqui",
+  "homepage": "https://nexvisionlabs.github.io/pede-aqui",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
