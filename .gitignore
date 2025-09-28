@@ -1,0 +1,72 @@
+# ========================
+# Global ignores (geral)
+# ========================
+.DS_Store
+Thumbs.db
+.env
+.env.*        # Para múltiplos ambientes: .env.dev, .env.prod etc.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# Mobile (React Native)
+# ========================
+MVP/Mobile/node_modules/
+MVP/Mobile/ios/build/
+MVP/Mobile/android/app/build/
+MVP/Mobile/android/build/
+MVP/Mobile/.gradle/
+MVP/Mobile/.expo/
+MVP/Mobile/.expo-shared/
+MVP/Mobile/.parcel-cache/
+MVP/Mobile/dist/
+MVP/Mobile/coverage/
+MVP/Mobile/expo-env.d.ts
+
+# Watchman (usado no RN)
+.watchmanconfig
+
+# Pods e CocoaPods (se for iOS com RN)
+MVP/Mobile/ios/Pods/
+MVP/Mobile/ios/Podfile.lock
+
+# Fastlane (se usado)
+MVP/Mobile/ios/fastlane/report.xml
+MVP/Mobile/ios/fastlane/screenshots/
+MVP/Mobile/ios/fastlane/test_output/
+
+# ========================
+# Web (ReactJS)
+# ========================
+MVP/Web/node_modules/
+MVP/Web/build/
+MVP/Web/dist/
+MVP/Web/.parcel-cache/
+MVP/Web/.next/
+MVP/Web/.turbo/
+MVP/Web/coverage/
+
+# ========================
+# Backend (NodeJS)
+# ========================
+MVP/Backend/node_modules/
+MVP/Backend/dist/
+MVP/Backend/build/
+MVP/Backend/coverage/
+MVP/Backend/.eslintcache
+MVP/Backend/.parcel-cache/
+
+# Se usar TypeScript
+MVP/**/tsconfig.tsbuildinfo
+
+# ========================
+# Optional - Editor config
+# ========================
+*.sublime-workspace
+*.sublime-project
